@@ -1,4 +1,4 @@
-package ex_1;
+package example_1;
 
 public class BlockedStudent  implements  Student{
     private  float average;

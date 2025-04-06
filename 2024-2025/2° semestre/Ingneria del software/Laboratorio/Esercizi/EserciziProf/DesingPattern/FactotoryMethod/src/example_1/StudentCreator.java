@@ -1,4 +1,4 @@
-package ex_1;
+package example_1;
 import java.util.*;
 
 public class StudentCreator extends Creator{
