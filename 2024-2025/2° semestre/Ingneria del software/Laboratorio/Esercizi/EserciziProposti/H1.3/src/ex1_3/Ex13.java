@@ -10,8 +10,9 @@ public class Ex13 {
                 new int[]{5, 5, 5}
         );
 
-        List<Boolean> result = terneList.stream()
-                .map(triangle -> isTriangle(triangle[0], triangle[1], triangle[2]))
+        List<Integer> result = terneList.stream()
+                .filter(triangle -> isTriangle(triangle[0], triangle[1], triangle[2]))
+                .map(t -> t[0] + t[1] + t[2])
                 .toList();
         System.out.println(result);
     }
