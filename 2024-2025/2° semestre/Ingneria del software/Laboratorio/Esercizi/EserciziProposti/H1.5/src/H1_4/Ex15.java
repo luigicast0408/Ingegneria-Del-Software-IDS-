@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class Ex14 {
+public class Ex15 {
     public static void main(String[] args) {
         List<Integer> isSorted = Arrays.asList(2, 3, 5, 6, 7);
 
